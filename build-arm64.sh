@@ -1,6 +1,6 @@
 #!/bin/sh
 
-version='2.1.0'
+version='2.3.0'
 
 docker buildx build \
 	--platform linux/arm64 \

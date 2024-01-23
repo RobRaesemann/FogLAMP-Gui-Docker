@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  foglamp-gui:
+    image: robraesemann/foglamp-gui:latest
+    container_name: foglamp-gui
+    ports:
+      - "8080:80"
